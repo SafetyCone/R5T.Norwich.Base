@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Norwich.Base", "R5T.Nor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Norwich.Base.Construction", "R5T.Norwich.Base.Construction\R5T.Norwich.Base.Construction.csproj", "{3B84CA32-FFA6-4364-85DF-381BAEB212E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{1A2AB37A-1946-4180-9A3E-720781B4A044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{3B84CA32-FFA6-4364-85DF-381BAEB212E8}.Release|x64.Build.0 = Release|Any CPU
 		{3B84CA32-FFA6-4364-85DF-381BAEB212E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B84CA32-FFA6-4364-85DF-381BAEB212E8}.Release|x86.Build.0 = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|x64.Build.0 = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Debug|x86.Build.0 = Debug|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|x64.ActiveCfg = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|x64.Build.0 = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|x86.ActiveCfg = Release|Any CPU
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7254E9D4-2ED8-4E10-BE7C-A38B84DB4225} = {1A2AB37A-1946-4180-9A3E-720781B4A044}
 	EndGlobalSection
 EndGlobal
